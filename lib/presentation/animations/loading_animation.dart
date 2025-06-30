@@ -12,7 +12,7 @@ class LoadingAnimation extends StatelessWidget {
         try {
           // Load the Lottie animation with proper error handling
           return Lottie.asset(
-            'assets/lottie/loadin.json',
+            'track/assets/lottie/loadin.json',
             width: 120,
             height: 120,
             repeat: true,
